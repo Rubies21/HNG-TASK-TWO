@@ -3,8 +3,8 @@ import Profile from "./Components/Profile"
 import Link from "./Components/Link" 
 import slackImg from "./Components/slack.svg"
 import githubImg from "./Components/github.svg"
-// import ZuriImg from "./Components/zuri.svg"
-
+import ZuriImg from "./Components/zuri.svg"
+import IngressiveImg from "./Components/ingressive.svg"
 
 function App() {
   return (
@@ -25,11 +25,14 @@ function App() {
         <img src={githubImg} alt="" />
       </div>
 
-      {/* <div className="second-footer">
+      <div className="second-footer">
+        <div className="sub-footer">
+        <img src={ZuriImg} alt="" />
+        <p>HNG Internship 9 Front end Task</p>
+        <img src={IngressiveImg} alt="" />
 
-
-      </div> */}
-
+      </div>
+        </div>
     </div>
   );
 }

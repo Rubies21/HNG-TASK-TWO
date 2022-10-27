@@ -15,6 +15,18 @@ a{
     justify-content: center;
 }
 
+.second-footer{
+    margin-top: 88px;
+    padding: 48px 0px 48px 0px;
+   
+}
+
+.sub-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 @media(max-width: 750px) {
     body{
         width:100%;
