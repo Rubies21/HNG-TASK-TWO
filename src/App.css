@@ -9,22 +9,38 @@ a{
     color:black;
 }
 
+.footer-one-container{
+    width: fit-content;
+    margin: auto;
+}
+
 .first-footer{
-    margin-top: 48px;
     display: flex;
     justify-content: center;
+    margin-top: 24px;
+    width: 1216px;
+    
+}
+.sub{
+    padding: 24px 0px 24px 0px;
+}
+
+.footer-two-container{
+    width: fit-content;
+    margin: auto;
 }
 
 .second-footer{
-    margin-top: 88px;
+    margin-top: 64px;
     padding: 48px 0px 48px 0px;
-   
+    width: 1280px;
 }
 
 .sub-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0px 36px 0px 36px;
 }
 
 @media(max-width: 750px) {
