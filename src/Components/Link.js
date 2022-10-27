@@ -4,7 +4,9 @@ import "./Link.css"
 const Link = (props) => {
   return (
     <div className = "button-container">
-      <button>{ props.field }</button>
+      <button id= {props.id}> 
+        <a href={props.link}>{ props.field }</a>
+      </button>
     </div>
   )
 }
