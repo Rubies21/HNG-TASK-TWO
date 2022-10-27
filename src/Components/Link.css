@@ -1,0 +1,13 @@
+.button-container{
+    margin: auto;
+    width: fit-content;
+    
+}
+
+button{
+    width: 1152px;
+    height: 76px;
+    padding: 24px 32px 24px 32px;
+    font-size: 18px;
+    border: none;
+}
