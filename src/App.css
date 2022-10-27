@@ -29,7 +29,6 @@ a{
 }
 
 .footer-two-container{
-    width: fit-content;
     margin: auto;
 }
 
@@ -48,4 +47,12 @@ a{
 
 #footer-text{
     color: #667085;
+}
+
+@media(max-width: 375px){
+    .sub-footer{
+        display: block;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
