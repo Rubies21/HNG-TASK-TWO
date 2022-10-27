@@ -1,6 +1,7 @@
 .button-container{
     margin: auto;
     width: fit-content;
+    width: -moz-fit-content;
     
 }
 
@@ -10,4 +11,5 @@ button{
     padding: 24px 32px 24px 32px;
     font-size: 18px;
     border: none;
+    margin-top: 24px;
 }

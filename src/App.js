@@ -7,8 +7,15 @@ function App() {
   return (
     <div className="App">
       <Profile/>
-      <Link field="Twitter Link"/>
 
+      <div className="links">
+        <Link field="Twitter Link"/>
+        <Link field="Zuri Team"/>
+        <Link field="Zuri Books"/>
+        <Link field="Python Books"/>
+        <Link field="Background check for coders"/>
+        <Link field="Design Books"/>
+      </div>
     </div>
   );
 }
