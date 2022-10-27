@@ -9,11 +9,15 @@
     display: flex;
     flex-direction: column;
     align-items: center; 
-    padding-bottom: 30px;
+    
        
 }
 
 #twitter{
     margin-top: 24px;
     font-weight: bolder;
+}
+
+.slack{
+    /* display:none; */
 }

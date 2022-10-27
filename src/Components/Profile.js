@@ -11,7 +11,10 @@ const Profile = () => {
         </div>
         <div id="twitter">
           <p>AdeagboJadesola</p>
-          </div>
+        </div>
+        <div className="slack">
+          Rubies
+        </div>
 
       </div>
       
