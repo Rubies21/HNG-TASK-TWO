@@ -14,11 +14,11 @@ function App() {
         <Profile/>
 
         <div className="links">
-          <Link id="twitter-link" link="twitter.com/AdeagboJadesola" field="Twitter Link" />
+          <Link id="twitter-link" link="https://twitter.com/AdeagboJadesola" field="Twitter Link" />
           <Link id="btn__zuri" link="https://training.zuri.team/" field="Zuri Team"/>
           <Link id="books" link="https://books.zuri.team/" field="Zuri Books"/>
-          <Link id="book__python" link="https://books.zuri.team/" field="Python Books"/>
-          <Link id="pitch" link="https://background.zuri.team//python-for-beginners?ref_id=Rubies" field="Background check for coders"/>
+          <Link id="book__python" link="https://books.zuri.team/python-for-beginners?ref_id=Rubies" field="Python Books"/>
+          <Link id="pitch" link="https://background.zuri.team" field="Background check for coders"/>
           <Link id="book__design" link="https://books.zuri.team/design-rules"field="Design Books"/>
         </div>
         </div>
@@ -36,7 +36,7 @@ function App() {
         <div className="second-footer">
         <div className="sub-footer">
         <img src={ZuriImg} alt="" />
-        <p>HNG Internship 9 Front end Task</p>
+        <p id='footer-text'>HNG Internship 9 Front end Task</p>
         <img src={IngressiveImg} alt="" />
 
         </div>
