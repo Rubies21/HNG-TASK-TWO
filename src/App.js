@@ -5,12 +5,10 @@ import slackImg from "./Components/slack.svg"
 import githubImg from "./Components/github.svg"
 import ZuriImg from "./Components/zuri.svg"
 import IngressiveImg from "./Components/ingressive.svg"
-import share from "./Components/share.svg"
-import minimizedShare from "./Components/minimizedShare.svg"
-import FocusShare from "./Components/FocusShare.svg"
-import HoverShare from "./Components/HoverShare.svg"
-
-
+import { RiShareForwardLine } from "react-icons/ri";
+import { BsThreeDots } from "react-icons/bs";
+import cursor from "./Components/cursor.svg"
+import Tooltip from "./Components/Tooltip.svg"
 
 function App() {
   return (
@@ -18,13 +16,19 @@ function App() {
       <div className="overall-top">
         <div className="section">
 
-          <div className="shareImg">
-            <div className="share-container">
-            <img src={share} alt="Share Avatar Button" className='img1'/>
-            <img src={minimizedShare} alt="" className='imgMin' />
-            <img src={FocusShare} alt="" className='imgFocus'/></div>
-            <img src={HoverShare} alt="" className='imgHover'/>
-          </div>
+        <div className="share-container" tabindex="1">
+        <RiShareForwardLine className="svg1" />
+        <BsThreeDots className="svg2" />
+
+        <span className="tooltiptext">
+          {" "}
+          <img src={Tooltip} alt="tooltip" width={90} />
+        </span>
+
+        <span className="cursor">
+          <img src={cursor} alt="cursor" width={20} />
+        </span>
+      </div>
 
           <Profile/>
 
@@ -37,7 +41,7 @@ function App() {
             <Link id="book__design" link="https://books.zuri.team/design-rules"field="Design Books"/>
           </div>
         </div>
-      </div>
+      </div> 
       <div className="footer-one-container">
         <div className='first-footer'>
           <div className="sub">

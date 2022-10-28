@@ -9,50 +9,58 @@
     position: relative;
 } 
 
-.shareImg{
-    padding-top: 64px;
-    left: 70%;
-    position:relative;    
-}
-
-.img1{
+.share-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: absolute;
-    
-}
-
-.imgMin{
-    position: absolute;
-    /* visibility: hidden; */
-    opacity: 0;
-}
-
-.imgFocus{
-    position:absolute;
-    /* visibility: hidden;   */
-    opacity:0;
-}
-
-
-.imgHover{
-    position: absolute;
-    /* visibility: hidden; */
-    opacity: 0;
-}
-
-.imgHover:hover{
+    width: 40px;
+    height: 40px;
+    right: 20%;
+    top: 40px;
+    background-color: white;
+    border: 1px dashed #d0d5dd;
+    border-radius: 50%;
     cursor: pointer;
-    opacity: 1;
+    transition: 0.1s;
 }
+    .share-container:hover {
+      background-color: #f2f4f7;
+    }
+    .share-container:focus {
+      box-shadow: 0px 0px 0px 4px #f2f4f7;
+    }
 
-.imgFocus:focus{
-    opacity: 1;
-}
+    .svg1 {
+        font-size: 24px;
+        color: #98a2b3;
+      }
+      .svg2 {
+        display: none;
+      }
+      .tooltiptext {
+        display: none;
+        position: absolute;
+        top: 5px;
+        right: 30px;
+      }
+      .cursor {
+        display: none;
+        text-align: center;
+        padding: 8px, 12px;
+        position: absolute;
+        top: 25px;
+        left: 30px;
+      }
 
+      .share-container:hover .tooltiptext {
+        display: block;
+      }
 
-.share-container{
-    position: absolute;
-    padding-left: 100px;
-}
+      .share-container:hover .cursor {
+        display: block;
+      }
 
 a{
     text-decoration: none;
@@ -102,34 +110,24 @@ a{
     color: #667085;
 }
 
-@media(max-width: 375px){
+@media(max-width: 500px){
     .sub-footer{
         display: block;
         padding-left: 16px;
         padding-right: 16px;
     }
-    .shareImg{
-        
-        left: 50%;
-    }
+    .svg1 {
+        display: none;
+      }
+      .svg2 {
+        display: block;
+      }
+      .share-container:hover .tooltiptext {
+        display: none;
+      }
 
-    .img1{
-        position: absolute;
-        visibility: hidden;
-        
-    }
-    
-    .imgMin{
-        position: absolute;
-        opacity: 0;
-    }
+      .share-container:hover .cursor {
+        display: none;
+      }
 
-    .imgHover:hover{
-        cursor: pointer;
-        opacity: 1;
-    }
-    
-    .imgFocus:focus{
-        opacity: 1;
-    }
 }
