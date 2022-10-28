@@ -46,7 +46,7 @@ function App() {
         <div className='first-footer'>
           <div className="sub">
             <img src={slackImg} alt="Slack Image" />
-            <img src={githubImg} alt="" />
+            <a href="https://github.com/Rubies21"><img src={githubImg} alt="" /></a>
           </div>
         </div>
       </div>

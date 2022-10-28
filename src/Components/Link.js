@@ -5,7 +5,7 @@ const Link = (props) => {
   return (
     <div className = "button-container">
         <div className="a-button">
-          <a href={props.link} id= {props.id} target="_blank">{ props.field }</a>
+          <a href={props.link} id= {props.id} target="_blank" className='buttons'>{ props.field }</a>
         </div>
         
       

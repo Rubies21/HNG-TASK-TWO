@@ -116,6 +116,10 @@ a{
         padding-left: 16px;
         padding-right: 16px;
     }
+    #footer-text{
+        padding: 30px 0px 30px 0px;
+
+    }
     .svg1 {
         display: none;
       }
