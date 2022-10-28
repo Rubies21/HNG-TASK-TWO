@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 a{
@@ -30,19 +31,22 @@ a{
 
 .footer-two-container{
     margin: auto;
+    width: fit-content;
 }
 
 .second-footer{
     margin-top: 64px;
     padding: 48px 0px 48px 0px;
-    width: 90vw;
+    width: 85vw;
+    
 }
 
 .sub-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 36px 0px 36px;
+    padding: 36px 0px 36px 0px;
+    border-top: 1px solid #EAECF0;
 }
 
 #footer-text{

@@ -8,7 +8,28 @@
 }
 
 #profile__img{
-    margin: auto;
+    position:relative;
+} 
+
+.imageHover{
+    position: absolute;
+    opacity: 0;
+}
+
+.imageFocus{
+    position: absolute;
+    opacity: 0;
+    
+}
+
+.imageHover:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.imageFocus:focus{
+    opacity: 1;
+    cursor: pointer;
 }
 
 #twitter{
