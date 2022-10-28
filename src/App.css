@@ -5,6 +5,55 @@
     font-family: 'Inter', sans-serif;
 }
 
+.section{
+    position: relative;
+} 
+
+.shareImg{
+    padding-top: 64px;
+    left: 70%;
+    position:relative;    
+}
+
+.img1{
+    position: absolute;
+    
+}
+
+.imgMin{
+    position: absolute;
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+.imgFocus{
+    position:absolute;
+    /* visibility: hidden;   */
+    opacity:0;
+}
+
+
+.imgHover{
+    position: absolute;
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+.imgHover:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.imgFocus:focus{
+    opacity: 1;
+}
+
+
+.share-container{
+    position: absolute;
+    padding-left: 100px;
+}
+
 a{
     text-decoration: none;
     color:black;
@@ -58,5 +107,29 @@ a{
         display: block;
         padding-left: 16px;
         padding-right: 16px;
+    }
+    .shareImg{
+        
+        left: 50%;
+    }
+
+    .img1{
+        position: absolute;
+        visibility: hidden;
+        
+    }
+    
+    .imgMin{
+        position: absolute;
+        opacity: 0;
+    }
+
+    .imgHover:hover{
+        cursor: pointer;
+        opacity: 1;
+    }
+    
+    .imgFocus:focus{
+        opacity: 1;
     }
 }

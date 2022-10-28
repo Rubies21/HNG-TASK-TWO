@@ -1,6 +1,6 @@
 #container{
     width: 80vw;
-    padding-top: 64px;
+    padding-top: 20px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -19,6 +19,7 @@
 .imageFocus{
     position: absolute;
     opacity: 0;
+    visibility: hidden;
     
 }
 
@@ -30,6 +31,7 @@
 .imageFocus:focus{
     opacity: 1;
     cursor: pointer;
+    visibility: visible;
 }
 
 #twitter{
