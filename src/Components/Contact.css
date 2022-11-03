@@ -5,7 +5,7 @@
  }
 
 .container{
-    width: 60vw;
+    width: 50vw;
     margin:auto;
     padding-top: 156px;
 }
@@ -16,12 +16,59 @@ p#hello{
 }
 form{
     margin-top: 48px;
-
 }
 .names{
     display: flex;
+    justify-content: space-between;
 }
 
-.fname{
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 14px;
+    line-height: 20px;
+}
+#first_name{
+    width: 24vw;
+    height: 44px;
+    border-radius: 8px;
+    border:1px solid #D0D5DD;
+    padding: 14px;
+}
+#last_name{
+    width: 24vw;
+    height: 44px;
+    border-radius: 8px;
+    border:1px solid #D0D5DD;
+    padding: 14px;
+}
 
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+#email{
+    height: 44px;
+    border-radius: 8px;
+    border:1px solid #D0D5DD;
+    padding: 14px;
+}
+.textArea{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+#message{
+    padding: 14px;
+}
+.checkbox{
+    margin-top: 24px;
+}
+
+#checkbox_text{
+    margin-left: 12px;
 }
