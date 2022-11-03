@@ -1,14 +1,14 @@
 import './App.css';
 import Profile from "./Components/Profile"
 import Link from "./Components/Link" 
-import slackImg from "./Components/slack.svg"
-import githubImg from "./Components/github.svg"
-import ZuriImg from "./Components/zuri.svg"
-import IngressiveImg from "./Components/ingressive.svg"
+import slackImg from "./assets/slack.svg"
+import githubImg from "./assets/github.svg"
+import ZuriImg from "./assets/zuri.svg"
+import IngressiveImg from "./assets/ingressive.svg"
 import { RiShareForwardLine } from "react-icons/ri";
 import { BsThreeDots } from "react-icons/bs";
-import cursor from "./Components/cursor.svg"
-import Tooltip from "./Components/Tooltip.svg"
+import cursor from "./assets/cursor.svg"
+import Tooltip from "./assets/Tooltip.svg"
 
 function App() {
   return (
@@ -39,6 +39,7 @@ function App() {
             <Link id="book__python" link="https://books.zuri.team/python-for-beginners?ref_id=Rubies" field="Python Books"/>
             <Link id="pitch" link="https://background.zuri.team" field="Background check for coders"/>
             <Link id="book__design" link="https://books.zuri.team/design-rules"field="Design Books"/>
+            <Link id="contact" link="https://books.zuri.team/design-rules"field="Contact"/>
           </div>
         </div>
       </div> 

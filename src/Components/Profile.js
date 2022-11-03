@@ -1,8 +1,8 @@
 import React from 'react'
-import profileImg from "./profile__img.svg"
+import profileImg from "../assets/profile__img.svg"
 import "./Profile.css"
-import imgHover from "./hover.svg"
-import imgFocus from "./focused.svg"
+import imgHover from "../assets/hover.svg"
+import imgFocus from "../assets/focused.svg" 
 
 const Profile = () => {
   return (
