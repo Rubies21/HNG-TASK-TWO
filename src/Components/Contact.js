@@ -1,16 +1,38 @@
 import React from 'react'
 import { Form } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import "./Contact.css"
 
-const Contact = (props) => {
-  const navigate = useNavigate();
+const Contact = () => {
   return (
-    <div style={backgroundColor=blue}>
-    <Form method="post" action="/events">
-        <input type="text" name="title" />
-        <input type="text" name="description" />
-        <button type="submit">Create</button>
-    </Form>
+    <div>
+      <div className="container">
+        <h1>Contact Me</h1>
+        <p id="hello">Hi there, contact me to ask me about anything you have in mind.</p>
+
+        <form>
+          <div className="names">
+          <div className="fname">
+            <label>
+            First Name
+            <input type="text" name='firstName' id='first_name' placeholder='First Name'/>
+            </label>
+            </div>
+
+
+            <div className="lname">
+            <label>
+            Last Name
+            <input type="text" name='lastName' id='last_name' placeholder='Last Name' />
+            </label>
+          </div>
+          </div>
+          
+         </form>
+        </div>
+
+
+      
+
     </div>
   )
 }

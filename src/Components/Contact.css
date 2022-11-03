@@ -1,0 +1,27 @@
+ *{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+ }
+
+.container{
+    width: 60vw;
+    margin:auto;
+    padding-top: 156px;
+}
+p#hello{
+    margin-top: 20px;
+    font-size: 20px;
+    color:#475467;
+}
+form{
+    margin-top: 48px;
+
+}
+.names{
+    display: flex;
+}
+
+.fname{
+
+}
