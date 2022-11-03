@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import "./Link.css"
+import "./LinkButton.css"
 
-const Link = (props) => {
+const LinkButton = (props) => {
   return (
     <div className = "button-container">
         <div className="a-button">
@@ -13,4 +13,4 @@ const Link = (props) => {
   )
 }
 
-export default Link
+export default LinkButton
