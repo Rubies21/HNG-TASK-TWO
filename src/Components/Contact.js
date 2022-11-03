@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const Contact = (props) => {
   const navigate = useNavigate();
   return (
-    <div>
+    <div style={backgroundColor=blue}>
     <Form method="post" action="/events">
         <input type="text" name="title" />
         <input type="text" name="description" />

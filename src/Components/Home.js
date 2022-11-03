@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './Home.css';
 import Profile from "./Profile"
 import LinkButton from "./LinkButton" 
@@ -13,10 +14,7 @@ import Tooltip from "../assets/Tooltip.svg"
 
 import { useNavigate } from "react-router-dom";
 
-const Home = (props) => {
-  const navigate = useNavigate();
-
-
+const Home = () => {
   return (
     <div className="App">
       <div className="overall-top">
@@ -45,7 +43,7 @@ const Home = (props) => {
             <LinkButton id="book__python" link="https://books.zuri.team/python-for-beginners?ref_id=Rubies" field="Python Books"/>
             <LinkButton id="pitch" link="https://background.zuri.team" field="Background check for coders"/>
             <LinkButton id="book__design" link="https://books.zuri.team/design-rules"field="Design Books"/>
-            <LinkButton id="contact" field="Contact"/>
+            <Link to="/contact"><LinkButton id="contact" field="Contact"/></Link>
            
           </div>
         </div>
