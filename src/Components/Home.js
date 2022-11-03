@@ -39,7 +39,7 @@ const Home = () => {
             <LinkButton id="book__python" link="https://books.zuri.team/python-for-beginners?ref_id=Rubies" field="Python Books"/>
             <LinkButton id="pitch" link="https://background.zuri.team" field="Background check for coders"/>
             <LinkButton id="book__design" link="https://books.zuri.team/design-rules"field="Design Books"/>
-            <Link to="/contact"><LinkButton id="contact" field="Contact"/></Link>
+            <Link to="/contact"><LinkButton id="contact" field="Contact Me"/></Link>
            
           </div>
         </div>

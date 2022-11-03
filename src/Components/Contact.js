@@ -1,6 +1,7 @@
 import React from 'react'
 import { Form } from "react-router-dom";
 import "./Contact.css"
+import Footer from "./Footer"
 
 const Contact = () => {
   return (
@@ -34,7 +35,8 @@ const Contact = () => {
 
           <div className="textArea">
             <label>Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>    
+            <p id="hint">Please enter text</p>   
           </div>
 
           <div className="checkbox">
@@ -42,13 +44,13 @@ const Contact = () => {
             <label id="checkbox_text">You agree to providing your data to Jadesola who may contact you</label>
           </div>
 
-          <button id="btn_submit">Send message</button>
+          <button id="btn__submit">Send message</button>
 
          </form>
+         
         </div>
-
-
-      
+        
+        <Footer/>
 
     </div>
   )
