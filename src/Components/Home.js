@@ -2,17 +2,13 @@ import { Link } from 'react-router-dom';
 import './Home.css';
 import Profile from "./Profile"
 import LinkButton from "./LinkButton" 
-import Contact from './Contact';
 import slackImg from "../assets/slack.svg"
 import githubImg from "../assets/github.svg"
-import ZuriImg from "../assets/zuri.svg"
-import IngressiveImg from "../assets/ingressive.svg"
 import { RiShareForwardLine } from "react-icons/ri";
 import { BsThreeDots } from "react-icons/bs";
 import cursor from "../assets/cursor.svg"
 import Tooltip from "../assets/Tooltip.svg"
-
-import { useNavigate } from "react-router-dom";
+import Footer from "./Footer"
 
 const Home = () => {
   return (
@@ -57,17 +53,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="footer-two-container">
-        <div className="second-footer">
-        <div className="sub-footer">
-        <img src={ZuriImg} alt="" />
-        <p id='footer-text'>HNG Internship 9 Front end Task</p>
-        <img src={IngressiveImg} alt="" />
-
-        </div>
-      </div>
-      
-      </div>
+      <Footer/>
     </div>
   );
 }

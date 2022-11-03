@@ -86,7 +86,7 @@ a{
     padding: 24px 0px 24px 0px;
 }
 
-.footer-two-container{
+/* .footer-two-container{
     margin: auto;
     width: fit-content;
 }
@@ -108,7 +108,7 @@ a{
 
 #footer-text{
     color: #667085;
-}
+} */
 
 @media(max-width: 500px){
     .sub-footer{
