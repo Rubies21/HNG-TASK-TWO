@@ -41,6 +41,9 @@ const Contact = () => {
             <input type="checkbox" id="checkbox"/>
             <label id="checkbox_text">You agree to providing your data to Jadesola who may contact you</label>
           </div>
+
+          <button id="btn_submit">Send message</button>
+
          </form>
         </div>
 
