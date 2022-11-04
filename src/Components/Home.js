@@ -8,7 +8,6 @@ import { RiShareForwardLine } from "react-icons/ri";
 import { BsThreeDots } from "react-icons/bs";
 import cursor from "../assets/cursor.svg"
 import Tooltip from "../assets/Tooltip.svg"
-import Footer from "./Footer"
 
 const Home = () => {
   return (
@@ -53,7 +52,6 @@ const Home = () => {
         </div>
       </div>
 
-      <Footer/>
     </div>
   );
 }
