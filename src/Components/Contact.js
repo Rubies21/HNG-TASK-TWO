@@ -5,6 +5,25 @@ import { useState } from 'react'
 
 const Contact = () => {
   const [check, setCheck] = useState(false)
+  const [errors, setErrors] = useState(false)
+  const [disabled, setDisabled] = useState(false);
+  const [contact, setContact] = useState({
+    first_name: '',
+    last_name: '',
+    email: "",
+    message: ""
+  })
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (disabled) return;
+    
+
+    if (!contact.message) {
+        setErrors(true)
+    }
+}
+
 
   return (
     <div>
@@ -12,7 +31,7 @@ const Contact = () => {
         <h1>Contact Me</h1>
         <p id="hello">Hi there, contact me to ask me about anything you have in mind.</p>
 
-        <form>
+        <form onSubmit={handleSubmit}>
           <div className="names">
 
             <div className="fields">
@@ -38,7 +57,8 @@ const Contact = () => {
           <div className="textArea">
             <label>Message</label>
             <textarea name="message" id="message" placeholder="Send me a message and I'll reply you as soon as possible..."></textarea>    
-            {/* <p id="hint">Please enter text</p>    */}
+            {errors && <p className="error">Please enter a message</p>}
+           
           </div>
 
           <div className="checkbox">

@@ -27,7 +27,7 @@
     color: #667085;
 }
 
-@media(max-width: 500px){
+@media(max-width: 750px){
     .sub-footer{
         display: block;
         padding-right: 16px;
