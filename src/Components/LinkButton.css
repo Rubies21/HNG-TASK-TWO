@@ -17,12 +17,11 @@ a.buttons{
     border-radius: 8px;
     margin-top: 24px;
 }
-
-a.buttons:hover{
+   a.buttons:hover{
     background-color: #D0D5DD;
 }
 
-a.buttons:focus{
+    a.buttons:focus{
     background-color: #EAECF0;
     border: 1px solid #98A2B3;
 }
@@ -30,4 +29,6 @@ a.buttons:focus{
 a.buttons:disabled{
     background-color: #FCFCFD;
     border: 1px solid #F2F4F7;
-}
+} 
+
+

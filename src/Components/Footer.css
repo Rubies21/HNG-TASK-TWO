@@ -11,7 +11,6 @@
 
 .second-footer{
     margin-top: 64px;
-    padding: 48px 0px 48px 0px;
     width: 85vw;
     
 }
@@ -31,11 +30,11 @@
 @media(max-width: 500px){
     .sub-footer{
         display: block;
-        padding-left: 16px;
         padding-right: 16px;
     }
-    #footer-text{
-        padding: 30px 0px 30px 0px;
 
+    #footer-text{
+        padding: 10px 0px 10px 0px;
     }
+
 }

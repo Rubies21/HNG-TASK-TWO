@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import './Home.css';
+import "./Home.css"
 import Profile from "./Profile"
 import LinkButton from "./LinkButton" 
 import slackImg from "../assets/slack.svg"
